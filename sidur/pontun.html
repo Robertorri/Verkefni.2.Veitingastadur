@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <meta name="description" content="Við erum lítill Pizzastaður í Hjarta Reykjavíkur">
+    <meta property="og:title" content="Við elskum að gera Pizzur fyrir Þig">
+    <meta property="og:description" content="Við erum lítill Pizzastaður í Hjarta Reykjavíkur">
+    <meta property="og:image" content="../SharingMynd">
+    
+    <a href="/index.html">Forsíða</a>
+    <a href="../sidur/matsedill.html">Matseðill</a>
+    <a href="../sidur/pontun.html"><strong>Pantaðu frá okkur!</strong></a>
+    <a href="../sidur/um.html">Aðeins um okkur</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
+	
+<h2>Pantaðu á Netinu</h2>
+       <form action="/skraning" method="post">
+        <fieldset>
+          <legend>Persónuupplýsingar</legend>
+          <label>
+            Nafn:
+            <input type="text" id="name" required>
+          </label>
+          <label>
+            Sími:
+            <input type="text" id="phone"  placeholder="000-0000" required>
+          </label>
+          Netfang:
+          <input type="text" id="email" required>
+        </label>
+          Heimilisfang:
+          <input type="text" id="adress" required>
+        </label>
+          <div>
+            <label for="comment">Athugasemdir:</label>
+            <textarea name="comment" id="comment"></textarea>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Sendingarmáti</legend>
+          <label>
+            <input name="delivery" type="radio" value="mail">
+            Heimsending
+          </label>
+          <label>
+            <input name="delivery" type="radio" value="email" checked>
+            Sækja á staðinn
+          </label>
+          <div>
+            <label>
+              <input name="register" type="checkbox" required>
+              Ég samþykki skilmála Robert's Pizzeria ehf.
+            </label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Veldu Pizzu</legend>
+          <div>
+            <label for="Pizza">Pizza</label>
+            <select id="Pizza" name="Pizza">
+              <option value="pizza">Roberto</option>
+              <option value="Pizza">Frisky Whisky</option>
+              <option value="Pizza">Hungry Hungry Hippie!</option>
+              <option value="Pizza">Margharita</option>
+              <option value="Pizza">Parma</option>
+              <option value="Pizza">Pepperoni</option>
+            </select>
+          </div>
+          <div>
+            <label for="language">Stærð</label>
+            <input id="language" type="text" list="languages">
+          </div>
+          <div>
+            <label for="comment">Athugasemdir:</label>
+            <textarea name="comment" id="comment"></textarea>
+          </div>
+        </fieldset>
+        <button>Samþykkja og Panta</button>
+        <datalist id="languages">
+          <option value="Lítil">Lítil</option>
+          <option value="Miðstærð">Miðstærð</option>
+          <option value="Stór">Stór</option>
+        </datalist>
+      </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>Bókaðu Borð</h2>
+
+    <label for="Bókun"> Hvenær viltu Bóka?:</label>
+    <input type="datetime-local" id="Bókun" name="Bókun">
+
+
+    <form action="/skraning" method="post">
+        <fieldset>
+          <legend>Persónuupplýsingar</legend>
+          <label>
+            Nafn:
+            <input type="text" id="name" required>
+          </label>
+          <label>
+            Sími:
+            <input type="text" id="phone"  placeholder="000-0000" required>
+          </label>
+          Netfang:
+          <input type="text" id="email" required>
+        </label>
+        </fieldset>
+        <fieldset>
+
+
+          <legend>Fjöldi Manns</legend>
+          <div>
+            <label for="Fjöldi">Veldu Fjölda</label>
+            <select id="Pizza" name="Pizza">
+              <option value="pizza">1</option>
+              <option value="Pizza">2</option>
+              <option value="Pizza">3</option>
+              <option value="Pizza">4</option>
+              <option value="Pizza">5</option>
+              <option value="Pizza">6</option>
+              <option value="Pizza">7</option>
+              <option value="Pizza">8</option>
+              <option value="Pizza">9</option>
+              <option value="Pizza">10</option>
+              <option value="Pizza">11</option>
+              <option value="Pizza">12</option>
+            </select>
+          </div>
+        </fieldset>
+        <button>Bóka</button>
+        <div>
+            <label for="comment">Athugasemdir:</label>
+            <textarea name="comment" id="comment"></textarea>
+          </div>
+          <div>
+            <label>
+              <input name="register" type="checkbox">
+              Skráðu mig á póstlista
+            </label>
+          </div>
+      </form>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
+    <footer>
+ 
+        <h4>Opnunartími</h4>
+        <d1>
+        <dt>Mánudaga til fimmtudaga</dt>
+        <dd>  09:00–18:00</dd>
+        <dt>Föstudaga</dt>
+        <dd>  10:00–22:00</dd>
+        <dt>Laugardaga</dt>
+        <dd> 11:00–22:00</dd>
+        <dt>Sunnudaga</dt>
+        <dd>  Lokað</dd>
+    </d1>
+    <h4>Hér erum við staðsett!</h4>
+    <h5>Ertu nálægt??<h5>
+    
+    <p>
+    </ul>
+    <li>Roberto's Pizzeria ehf.</li>
+    <li>Bestagatan 22</li>
+    <li>101 Reykjavík</li>
+    <li>Sími - 581-12345</li>
+    <li>robertospizzeria@pizza.is</li>
+    
+    </ul>
+    </p>
+    <a href="/index.html">Aftur á Forsíðu</a>
+    </footer>
+</body>
+</html>
