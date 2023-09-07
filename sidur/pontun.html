@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
 
-    <meta name="description" content="Við erum lítill Pizzastaður í Hjarta Reykjavíkur">
+    <meta property="description" content="Við erum lítill Pizzastaður í Hjarta Reykjavíkur">
     <meta property="og:title" content="Við elskum að gera Pizzur fyrir Þig">
     <meta property="og:description" content="Við erum lítill Pizzastaður í Hjarta Reykjavíkur">
     <meta property="og:image" content="../SharingMynd">
-    
+</head>
+<body>
+
+    <H1>Roberto's Pizzeria</H1>
+    <p>Tómur magi? Við getum reddað því!</p>
+    <p>Roberto's Pizzeria</p>
+    <a href="#target-section">Beint í Bóka Borð</a>
+    <br>
+    <br>
     <a href="/index.html">Forsíða</a>
     <a href="../sidur/matsedill.html">Matseðill</a>
     <a href="../sidur/pontun.html"><strong>Pantaðu frá okkur!</strong></a>
@@ -29,17 +35,19 @@
           <legend>Persónuupplýsingar</legend>
           <label>
             Nafn:
-            <input type="text" id="name" required>
+            <input type="text" id="name" placeholder="Jón Jónsson" required>
           </label>
           <label>
             Sími:
-            <input type="text" id="phone"  placeholder="000-0000" required>
+            <input type="text" id="phone"  placeholder="581-2345" required>
           </label>
+          <label>
           Netfang:
-          <input type="text" id="email" required>
+          <input type="text" id="email" placeholder="DæmiUmNetfang@netfang.is" required>
         </label>
+        <label>
           Heimilisfang:
-          <input type="text" id="adress" required>
+          <input type="text" id="adress" placeholder="Bestagatan 22" required>
         </label>
           <div>
             <label for="comment">Athugasemdir:</label>
@@ -82,7 +90,7 @@
           </div>
           <div>
             <label for="comment">Athugasemdir:</label>
-            <textarea name="comment" id="comment"></textarea>
+            <textarea name="comment2" id="comment2"></textarea>
           </div>
         </fieldset>
         <button>Samþykkja og Panta</button>
@@ -97,7 +105,9 @@
     <br>
     <br>
     <br>
-    <h2>Bókaðu Borð</h2>
+    <section id="target-section">
+        <h2>Bókaðu Borð</h2>
+    </section>
 
     <label for="Bókun"> Hvenær viltu Bóka?:</label>
     <input type="datetime-local" id="Bókun" name="Bókun">
@@ -108,14 +118,15 @@
           <legend>Persónuupplýsingar</legend>
           <label>
             Nafn:
-            <input type="text" id="name" required>
+            <input type="text" id="name2" placeholder="Jón Jónsson" required>
           </label>
           <label>
             Sími:
-            <input type="text" id="phone"  placeholder="000-0000" required>
+            <input type="text" id="phone2"  placeholder="581-2345" required>
           </label>
+          <label>
           Netfang:
-          <input type="text" id="email" required>
+          <input type="text" id="email2" placeholder="DæmiUmNetfang@nefang.is" required>
         </label>
         </fieldset>
         <fieldset>
@@ -123,8 +134,8 @@
 
           <legend>Fjöldi Manns</legend>
           <div>
-            <label for="Fjöldi">Veldu Fjölda</label>
-            <select id="Pizza" name="Pizza">
+            <label for="Fjoldi">Veldu Fjölda</label>
+            <select id="Fjoldi" name="Fjoldi">
               <option value="pizza">1</option>
               <option value="Pizza">2</option>
               <option value="Pizza">3</option>
@@ -143,7 +154,7 @@
         <button>Bóka</button>
         <div>
             <label for="comment">Athugasemdir:</label>
-            <textarea name="comment" id="comment"></textarea>
+            <textarea name="comment3" id="comment3"></textarea>
           </div>
           <div>
             <label>
@@ -163,7 +174,7 @@
     <footer>
  
         <h4>Opnunartími</h4>
-        <d1>
+        <dl>
         <dt>Mánudaga til fimmtudaga</dt>
         <dd>  09:00–18:00</dd>
         <dt>Föstudaga</dt>
@@ -172,20 +183,18 @@
         <dd> 11:00–22:00</dd>
         <dt>Sunnudaga</dt>
         <dd>  Lokað</dd>
-    </d1>
-    <h4>Hér erum við staðsett!</h4>
-    <h5>Ertu nálægt??<h5>
-    
-    <p>
-    </ul>
+    </dl>
+    <h4>Við erum staðsett hér!</h4>
+
+    <ul>
     <li>Roberto's Pizzeria ehf.</li>
     <li>Bestagatan 22</li>
     <li>101 Reykjavík</li>
     <li>Sími - 581-12345</li>
     <li>robertospizzeria@pizza.is</li>
-    
+
     </ul>
-    </p>
+
     <a href="/index.html">Aftur á Forsíðu</a>
     </footer>
 </body>
